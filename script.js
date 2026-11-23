@@ -423,7 +423,7 @@ if (redirectCount) {
     redirectCount.textContent = String(Math.max(left, 0));
     if (left <= 0) {
       clearInterval(timer);
-      window.location.replace("/");
+      window.location.replace("/zenoptics-staging/");
     }
   }, 1000);
 }
